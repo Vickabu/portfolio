@@ -106,7 +106,7 @@ body {
 }
 
 .project-card img{
-    width: 80%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -168,10 +168,23 @@ hr {
         width: 90%;
     }
 
+    .project-cards {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
 
     .who ul{
         width: 90%;
         
     }
+
+    .who ul {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .visit-link a{
+        font-size: 15px;
+    }
+    
 
 }
