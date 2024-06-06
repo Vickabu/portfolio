@@ -1,0 +1,41 @@
+
+
+body {
+    margin: 0;
+    background-color: #AE8AE8;
+}
+
+nav {
+    background-color: #090311;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+
+nav img {
+    max-width: 200px;
+}
+
+.nav-links {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 60%;
+
+}
+
+.nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: aliceblue;
+    top: 70%;
+}
+
+.nav-links a:hover {
+    text-shadow: 4px 4px 4px  #AE8AE8;
+}
+
+

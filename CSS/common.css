@@ -1,0 +1,13 @@
+@import url(fonts.css);
+@import url(buttons.css);
+@import url(nav.css);
+
+
+footer img {
+    max-width: 200px;
+}
+
+footer {
+    text-align: center;
+    background-color: #090311;
+}

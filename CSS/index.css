@@ -1,0 +1,177 @@
+@import url(common.css);
+
+body {
+    margin: 0;
+    background-color: #AE8AE8;
+}
+
+
+.intro-section {
+    background-color: #090311;
+    padding: 5% 0 0 0;
+    height: 100vh;
+    margin-top: min(69px);
+}
+
+.intro {
+    text-align: left;
+    color: white;
+    max-width: 70%;
+    margin: auto;
+    padding: 10% 0 10% 0;
+}
+
+.intro-name {
+    margin-bottom: 40px;
+}
+
+.intro h1 {
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 2px 4px #ae8ae8ad;
+}
+
+.scroll-info {
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+}
+
+.scroll-info p {
+    margin: 0 auto 20px auto;
+}
+
+#content {
+    width: 80%;
+    margin: 0 0 41px 0;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-content {
+    color: #090311;
+}
+
+.who {
+    padding: 2% 0 2% 0;
+
+}
+
+.who ul {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 35px;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.who li {
+   
+    box-shadow: 0px 2px 4px #09031144;
+    padding: 5%;
+}
+
+.project-section {
+    background-color: #090311;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+.project-content{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-cards {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    padding-top: 2%;
+}
+
+.project-card {
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0px 2px 4px #ae8ae860;
+}
+
+.project-card img{
+    width: 80%;
+    height: auto;
+}
+
+.project-card-info {
+    width: 80%;
+    margin: auto auto 40px auto;
+    text-align: left;
+}
+
+
+
+#info-center {
+    text-align: center;
+}
+
+#info-center a{
+    color: #AE8AE8;
+}
+
+.visit-link a{
+    display: block;
+    padding-top: 15px;
+}
+
+
+
+hr {
+    background-color: #AE8AE8;
+    margin: 40px 0 40px 0;
+}
+
+.contact-section { 
+    display: flex;
+    justify-content: center;
+    background: url('../assets/bk.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-content {
+    text-align: center;
+    margin-bottom: inherit;
+}
+
+.contact-info {
+    background-color: #ae8ae8e1;
+    position: relative;
+    top: 20%;
+    padding: 2% 0 5% 0;
+}
+
+
+@media (max-width: 1400px) {
+
+    #content {
+        width: 90%;
+    }
+
+
+    .who ul{
+        width: 90%;
+        
+    }
+
+}
