@@ -11,3 +11,25 @@ footer {
     text-align: center;
     background-color: #090311;
 }
+
+
+::-webkit-scrollbar {
+    width: 18px;
+    border-left: solid black;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #09031186;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ae8ae8a2;
+    border: solid #090311;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #AE8AE8;
+  }
+
+ 
