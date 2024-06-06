@@ -9,7 +9,7 @@ body {
 .intro-section {
     background-color: #090311;
     padding: 5% 0 0 0;
-    height: 100vh;
+    max-height: 100vh;
     margin-top: min(69px);
 }
 
@@ -34,11 +34,11 @@ body {
 .scroll-info {
     color: aliceblue;
     text-align: center;
-    margin: 0;
 }
 
 .scroll-info p {
     margin: 0 auto 20px auto;
+    padding-bottom: 20px;
 }
 
 #content {
