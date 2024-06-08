@@ -186,6 +186,9 @@ hr {
     .visit-link a{
         font-size: 15px;
     }
-    
+
+    .scroll-info {
+        display: none;
+    }
 
 }
